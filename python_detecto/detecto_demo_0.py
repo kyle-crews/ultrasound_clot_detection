@@ -2,7 +2,7 @@
 from detecto import core, utils, visualize
 
 # read the image and initialize a pre-trained model
-image = utils.read_image('zebra.jpg')
+image = utils.read_image('./ultrasound_clot_detection/python_detecto/images/zebra.jpg')
 model = core.Model()
 
 # generate and plot the top perditions
